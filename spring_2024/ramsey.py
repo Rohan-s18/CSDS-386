@@ -32,4 +32,9 @@ result = job.result()
 
 # getting the measurement value
 counts = result.get_counts(circuit)
+
+# printing the final results
+print("\n")
+print(circuit)
 print("Measurement result:", counts)
+print("\n")
